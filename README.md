@@ -142,15 +142,6 @@ Berikut adalah kredensial yang tersedia untuk testing:
 
 ## 📸 Screenshot
 
-### Halaman Login
-![Halaman Login](https://via.placeholder.com/800x400?text=Halaman+Login)
-
-### Dashboard Admin
-![Dashboard Admin](https://via.placeholder.com/800x400?text=Dashboard+Admin)
-
-### Informasi Cuaca
-![Informasi Cuaca](https://via.placeholder.com/800x400?text=Informasi+Cuaca)
-
 ## 🤝 Kontributor
 - [Arif Nur Listanto](https://github.com/arif25-glitch) - Developer
 
