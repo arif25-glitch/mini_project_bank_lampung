@@ -62,12 +62,16 @@ Mini Project Aplikasi Bank Lampung adalah sistem fullstack yang menggabungkan ba
 ### 3. Manajemen Data Pengguna
 - Implementasi CRUD untuk entitas pengguna
 - Endpoint:
-  - `POST /register` - untuk mendaftarkan pengguna baru
-  - `POST /login` - untuk proses login
-  - `GET /users` - daftar semua pengguna (hanya admin)
-  - `GET /users/{id}` - detail pengguna tertentu
-  - `PUT /users/{id}` - update data pengguna tertentu
-  - `DELETE /users/{id}` - hapus pengguna tertentu (hanya admin)
+  - `POST /api/register` - untuk mendaftarkan pengguna baru
+  - `POST /api/login` - untuk proses login
+  - `POST /api/logout` - untuk logout
+  - `GET /api/users` - daftar semua pengguna (hanya admin)
+  - `POST /api/users` - membuat pengguna baru
+  - `GET /api/users/{id}` - detail pengguna tertentu
+  - `PUT /api/users/{id}` - update data pengguna tertentu
+  - `DELETE /api/users/{id}` - hapus pengguna tertentu (hanya admin)
+  - `POST /api/users/{id}/info` - membuat atau update info pengguna
+  - `GET /api/users/{id}/info` - mendapatkan info pengguna
 
 ### 4. Tampilan Halaman dan Manajemen
 - Halaman Login dan Registrasi
@@ -77,7 +81,9 @@ Mini Project Aplikasi Bank Lampung adalah sistem fullstack yang menggabungkan ba
 
 ### 5. Integrasi API Cuaca
 - Integrasi dengan OpenWeatherMap API
-- Endpoint `GET /weather/{city}` untuk mendapatkan data cuaca
+- Endpoint:
+  - `POST /api/weather` - mendapatkan data cuaca
+  - `GET /api/weather/{city}` - mendapatkan data cuaca berdasarkan nama kota
 - Penyimpanan hasil API di database
 - Tampilan kondisi cuaca
 
@@ -126,6 +132,14 @@ npm install
 npm run dev
 ```
 
+### Akun Demo
+Berikut adalah kredensial yang tersedia untuk testing:
+
+| Peran | Email | Password |
+|-------|-------|----------|
+| Admin | admin@admin.com | admin123 |
+| User | test@test.com | testuser123 |
+
 ## 📸 Screenshot
 
 ### Halaman Login
@@ -141,4 +155,4 @@ npm run dev
 - [Arif Nur Listanto](https://github.com/arif25-glitch) - Developer
 
 ## 📄 Lisensi
-Hak Cipta © 2023 Bank Lampung. Seluruh hak dilindungi.
+Hak Cipta © 2025 Bank Lampung. Seluruh hak dilindungi.
