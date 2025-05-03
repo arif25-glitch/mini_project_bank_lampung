@@ -21,6 +21,9 @@ Mini Project Aplikasi Bank Lampung adalah sistem fullstack yang menggabungkan ba
 ## Live Demo
 https://mini-project-bank-lampung-frontendarifnurlistanto.vercel.app
 
+## Backend URL
+https://nurlistantodomain.my.id
+
 ### Frontend
 - **React** - Library JavaScript untuk membangun antarmuka pengguna
 - **Vite** - Build tool yang cepat untuk pengembangan modern
